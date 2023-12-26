@@ -1,0 +1,50 @@
+@import "../../styles/variables.scss";
+
+.topBox {
+  h1 {
+    margin-bottom: 20px;
+  }
+  .list {
+
+    .listItem {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    //   margin-bottom: 30px;
+      padding: 12px  ;
+      border-radius: 12px;
+      
+       &:hover{
+        background-color: $soft-bg;
+       }
+      .user {
+        display: flex;
+        gap: 20px;
+
+        img {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        .userText {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+          .username { 
+            font-size: 15px;
+            font-weight:500 ;
+          }
+          .email{
+            font-size: 12px;
+            color: $soft-color;
+          }
+        }
+      }
+
+      .amount {
+        font-weight: 500;
+      }
+    }
+  }
+}
