@@ -8,9 +8,10 @@ type Props ={
     chartData: object[];
 };
 
-
 const BarChartBox = ( props : Props) => {
   return (
+
+//  All data for Total Earned, Total visit cam from the ./data file and pass the props in the App.ts 
     <div className="barChartBox">
         <h1>{props.title}</h1>
         <div className="chart">
