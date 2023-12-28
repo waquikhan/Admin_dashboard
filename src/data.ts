@@ -301,7 +301,6 @@ export const barChartBoxRevenue = {
             profit: 6737,
         },
         {
-            name: "Wed",
             profit: 9846,
         },
         {
@@ -314,7 +313,7 @@ export const barChartBoxRevenue = {
         },
         {
             name: "Sat",
-            profit: 7809,
+            profit: 757,
         },
     ],
 };
@@ -330,7 +329,7 @@ export const barChartBoxVisit = {
     chartData: [
         {
             name: "Sun",
-            visit: 4000,
+            visit: 6738,
         },
         {
             name: "Mon",
@@ -342,11 +341,11 @@ export const barChartBoxVisit = {
         },
         {
             name: "Wed",
-            visit: 5000,
+            visit: 687,
         },
         {
             name: "Thu",
-            visit: 2700,
+            visit: 7888,
         },
         {
             name: "Fri",
@@ -354,7 +353,7 @@ export const barChartBoxVisit = {
         },
         {
             name: "Sat",
-            visit: 1500,
+            visit: 4000,
         },
     ],
 };
