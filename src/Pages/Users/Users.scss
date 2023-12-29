@@ -1,3 +1,14 @@
 .users{
-    background-color: rgb(18, 156, 77);
+
+    .info{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        gap: 20px;
+
+        button{
+            padding: 5px;
+            cursor: pointer;
+        }
+    }
 }
