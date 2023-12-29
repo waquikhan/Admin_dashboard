@@ -6,12 +6,15 @@ import { Link } from "react-router-dom"
 type Props = {
     columns:GridColDef[],
     rows:object[],
-    slag:string,
+    slug:string,
 }
 
 const DataTable = (props: Props) => {
 
     const handleDelete = (id:number) =>{
+
+        //Delete the item
+        // axios.delete('/api/${slug}/id)
         console.log(id + "data is deleted")
     }
 
@@ -22,7 +25,7 @@ const DataTable = (props: Props) => {
         renderCell:(params) =>{
             return(
                 <div className="action">
-                    <Link to={`/${props.slag}/${params.row.id}`} >
+                    <Link to={`/${props.slug}/${params.row.id}`} >
                         <img src="/view.svg" alt="" />
                     </Link>
                     <div className="delete" onClick={()=>handleDelete(params.row.id)}>
