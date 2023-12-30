@@ -8,7 +8,7 @@ import AddModalBox from "../../Components/AddModalBox/AddModalBox";
 const columns: GridColDef[] = [
   { field: 'id', headerName: 'ID', width: 70 },
   {
-      field:"avatar", headerName:"Avatar", width:80,
+      field:"img", headerName:"Avatar", width:80,
       renderCell:(params)=>{
           return <img src={params.row.img || "/noavatar.png"} alt="" />
       }
@@ -72,7 +72,7 @@ const Users = () => {
         <button onClick={()=>setOpne(true)}>Add New Users</button>
       </div>
         <DataTable slug="users"  columns={columns} rows={userRows}  />
-        {open && <AddModalBox slug="users" columns={columns} setOpne={setOpne} />}
+        {open && <AddModalBox slug="Users" columns={columns} setOpne={setOpne} />}
     </div>
   )
 }

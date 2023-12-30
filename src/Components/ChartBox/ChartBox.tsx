@@ -23,7 +23,7 @@ const ChartBox = (props : Props) => {
                     <span>{props.title}</span>
                 </div>
                 <h1>{props.number}</h1>
-                <Link to="/products" style={{ color: props.color }}> View all</Link>
+                <Link to="/" style={{ color: props.color }}> View all</Link>
             </div>
             <div className="chartInfo">
                 <div className="chart">

@@ -59,25 +59,25 @@ export const menu =[
             {
                 id:"1",
                 title:"Elements",
-                url:"/",
+                url:"/elements",
                 icon:"element.svg",
             },
             {
                 id:"2",
                 title:"Notes",
-                url:"/",
+                url:"/notes",
                 icon:"note.svg",
             },
             {
                 id:"3",
                 title:"Forms",
-                url:"/",
+                url:"/forms",
                 icon:"form.svg",
             },
             {
                 id:"4",
                 title:"Calender",
-                url:"/",
+                url:"/calender",
                 icon:"calendar.svg",
             },
         ],
@@ -89,13 +89,13 @@ export const menu =[
             {
                 id:"1",
                 title:"Settings",
-                url:"/",
+                url:"/settings",
                 icon:"setting.svg",
             },
             {
                 id:"2",
                 title:"Backup",
-                url:"/",
+                url:"/backup",
                 icon:"backup.svg",
             },
         ],
@@ -107,13 +107,13 @@ export const menu =[
             {
                 id:"1",
                 title:"Charts",
-                url:"/",
+                url:"/charts",
                 icon:"chart.svg",
             },
             {
                 id:"2",
                 title:"Logs",
-                url:"/",
+                url:"/logs",
                 icon:"log.svg",
             },
         ],
@@ -357,3 +357,497 @@ export const barChartBoxVisit = {
         },
     ],
 };
+
+
+//This is the User Data
+export const userRows = [
+    {
+        id:1,
+        img:"https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Hina",
+        lastName:"Khan",
+        email:"hinakhan@gmail.com",
+        phone:"+0198766534",
+        createdAt:"01.02.2021",
+        verified:true
+    },
+    {
+        id:2,
+        img:"https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"naina",
+        lastName:"mishra",
+        email:"nainamishra@gmail.com",
+        phone:"+9108765342",
+        createdAt:"12.10.1999",
+        verified:false
+    },
+    {
+        id:3,
+        img:"https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Neha",
+        lastName:"Dhomane",
+        email:"nehadhomane@gmail.com",
+        phone:"++917387304258",
+        createdAt:"13.04.1999",
+        verified:true
+    },
+    {
+        id:4,
+        img:"https://images.pexels.com/photos/1721558/pexels-photo-1721558.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Arbaz",
+        lastName:"Pthan",
+        email:"arbazpathan@gmail.com",
+        phone:"+919988774666",
+        createdAt:"09.05.2022",
+        verified:true
+    },
+    {
+        id:5,
+        img:"https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Abuzar",
+        lastName:"Salman",
+        email:"abuzarsalman@gmail.com",
+        phone:"+91234587638",
+        createdAt:"28.02.2021",
+        verified:true
+    },
+    {
+        id:6,
+        img:"https://images.pexels.com/photos/2531156/pexels-photo-2531156.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Imran",
+        lastName:"Pthan",
+        email:"imranpathan@gmail.com",
+        phone:"+910987654321",
+        createdAt:"20.11.2002",
+        verified:false
+    },
+    {
+        id:7,
+        img:"https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Waqui",
+        lastName:"Khan",
+        email:"waquikhan@gmail.com",
+        phone:"+919923539476",
+        createdAt:"10.13.2020",
+        verified:true
+    },
+    {
+        id:8,
+        img:"https://images.pexels.com/photos/1620765/pexels-photo-1620765.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Urooj",
+        lastName:"Khan",
+        email:"uroojkhan@gmail.com",
+        phone:"+917998740298",
+        createdAt:"10.12.2022",
+        verified:true
+    },
+    {
+        id:9,
+        img:"https://images.pexels.com/photos/3261143/pexels-photo-3261143.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Mohsin",
+        lastName:"Salam",
+        email:"mohsinsalam@gmail.com",
+        phone:"+910234567983",
+        createdAt:"29.05.2022",
+        verified:true
+    },
+    {
+        id:10,
+        img:"https://images.pexels.com/photos/3271024/pexels-photo-3271024.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Chandani",
+        lastName:"sharma",
+        email:"chandanisharma@gmail.com",
+        phone:"+917998740298",
+        createdAt:"27.11.2023",
+        verified:true
+    },
+    {
+        id:11,
+        img:"https://images.pexels.com/photos/1081606/pexels-photo-1081606.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Rohan",
+        lastName:"Khan",
+        email:"rohankhan@gmail.com",
+        phone:"+917998740298",
+        createdAt:"30.01.2023",
+        verified:true
+    },
+    {
+        id:12,
+        img:"https://images.pexels.com/photos/1315741/pexels-photo-1315741.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Rehan",
+        lastName:"Shaikh",
+        email:"rehanshaikh@gmail.com",
+        phone:"+917998740298",
+        createdAt:"20.02.2023",
+        verified:true
+    },
+    {
+        id:13,
+        img:"https://images.pexels.com/photos/1315741/pexels-photo-1315741.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+        firstName:"Ramesh",
+        lastName:"Shaikh",
+        email:"rameshshaikh@gmail.com",
+        phone:"+917998740298",
+        createdAt:"27.11.2023",
+        verified:true
+    },
+    {
+        id:14,
+        img:"https://images.pexels.com/photos/3271024/pexels-photo-3271024.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Chandani",
+        lastName:"sharma",
+        email:"chandanisharma@gmail.com",
+        phone:"+917998740298",
+        createdAt:"27.11.2023",
+        verified:true
+    },
+    {
+        id:15,
+        img:"https://images.pexels.com/photos/3271024/pexels-photo-3271024.jpeg?auto=compress&cs=tinysrgb&w=600",
+        firstName:"Chandani",
+        lastName:"sharma",
+        email:"chandanisharma@gmail.com",
+        phone:"+917998740298",
+        createdAt:"27.11.2023",
+        verified:true
+    },
+]
+
+
+// This is Products Data
+export const product = [
+    {
+     id:1,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71kJlKb2r8L._SX679_.jpg",
+     title:"Vivobook 15, Intel Celeron N4020, 15.6 ",
+     color:"Grey",
+     price:"₹26,990",
+     producer:"Asus",
+     createAt:"01.10.2022",
+     inStock:"true"
+    },
+    {
+     id:2,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/41JXx-kDmqL._SX300_SY300_QL70_FMwebp_.jpg",
+     title:"ASUS BP4600 Laptop Backpack",
+     color:"Grey",
+     price:"₹1,250",
+     producer:"Laptop",
+     createAt:"10.10.2020",
+     inStock:"yes"
+    },
+    {
+     id:3,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/516LU0H963L._SX679_.jpg",
+     title:"Logitech B170 Wireless Mouse",
+     color:"Black",
+     price:"₹595",
+     producer:"Ambidextrous",
+     createAt:"09.02.2019",
+     inStock:""
+    },
+    {
+     id:4,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61rJhMxiusL._SX679_.jpg",
+     title:"boAt Wave Style Call Smart Watch with Advanced BT Calling Chip",
+     color:"Pinck",
+     price:"₹1,099",
+     producer:"Boat",
+     createAt:"23.07.2021",
+     inStock:"Yes"
+    },
+    {
+     id:5,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/515jdxLlmaL._SX679_.jpg",
+     title:"boAt Rockerz 255 Pro+ Bluetooth Neckband",
+     color:"Black",
+     price:"₹1,299",
+     producer:"Boat",
+     createAt:"20.02.2020",
+     inStock:"Yes"
+    },
+    {
+     id:6,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/41U0KBNRk5L._SX300_SY300_QL70_FMwebp_.jpg",
+     title:"Lava Agni 2 5G (Glass Viridian, 8GB RAM, 256GB Storage)",
+     color:"Maroon",
+     price:"₹19,999",
+     producer:"Lava",
+     createAt:"10.02.2023",
+     inStock:"Yes"
+    },
+    {
+     id:7,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61Id6WJDWqL._SX679_.jpg",
+     title:"iQOO Z7 Pro 5G (Blue Lagoon, 8GB RAM, 256GB Storage)",
+     color:"Sky-Blue",
+     price:"₹24,999",
+     producer:"Realmi",
+     createAt:"29.05.2021",
+     inStock:"Yes"
+    },
+    {
+     id:8,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71657TiFeHL._SX679_.jpg",
+     title:"Apple iPhone 15 (128 GB)",
+     color:"Black",
+     price:"₹74,900",
+     producer:"Apple",
+     createAt:"30.08.2022",
+     inStock:"Yes"
+    },
+    {
+     id:9,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71657TiFeHL._SX679_.jpg",
+     title:"Apple iPhone 15 (128 GB)",
+     color:"Green",
+     price:"₹74,900",
+     producer:"Apple",
+     createAt:"30.08.2022",
+     inStock:"Yes"
+    },
+    {
+     id:10,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71657TiFeHL._SX679_.jpg",
+     title:"Apple iPhone 15 (128 GB)",
+     color:"Blue",
+     price:"₹74,900",
+     producer:"Apple",
+     createAt:"30.08.2022",
+     inStock:"Yes"
+    },
+    {
+     id:11,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71657TiFeHL._SX679_.jpg",
+     title:"Apple iPhone 15 (128 GB)",
+     color:"Pink",
+     price:"₹74,900",
+     producer:"Apple",
+     createAt:"30.08.2022",
+     inStock:"Yes"
+    },
+    {
+     id:12,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71657TiFeHL._SX679_.jpg",
+     title:"Apple iPhone 15 (128 GB)",
+     color:"Yellow",
+     price:"₹74,900",
+     producer:"Apple",
+     createAt:"30.08.2022",
+     inStock:"Yes"
+    },
+    {
+     id:13,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81dT7CUY6GL._SX679_.jpg",
+     title:"Apple iPhone 15 Pro Max ",
+     color:"Natural Titanium",
+     price:"₹1,56,900",
+     producer:"Apple",
+     createAt:"30.12.2023",
+     inStock:"Yes"
+    },
+    {
+     id:14,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81dT7CUY6GL._SX679_.jpg",
+     title:"Apple iPhone 15 Pro Max ",
+     color:"Black Titanium",
+     price:"₹1,56,900",
+     producer:"Apple",
+     createAt:"30.12.2023",
+     inStock:"Yes"
+    },
+    {
+     id:15,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81dT7CUY6GL._SX679_.jpg",
+     title:"Apple iPhone 15 Pro Max ",
+     color:"Silver Titanium",
+     price:"₹1,56,900",
+     producer:"Apple",
+     createAt:"30.12.2023",
+     inStock:"Yes"
+    },
+    {
+     id:16,
+     img:"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81dT7CUY6GL._SX679_.jpg",
+     title:"Apple iPhone 15 Pro Max ",
+     color:"White Titanium",
+     price:"₹1,56,900",
+     producer:"Apple",
+     createAt:"30.12.2023",
+     inStock:"Yes"
+    },
+    {
+     id:17,
+     img:"",
+     title:"",
+     color:"",
+     price:"₹",
+     producer:"",
+     createAt:"10.02.2023",
+     inStock:"Yes"
+    },
+]
+
+export const singleUser = {
+    id: 1,
+    title: "Waqui Khan",
+    img: "https://avatars.githubusercontent.com/u/103071047?v=4",
+    info: {
+      username: "waqui_khan",
+      fullname: "Waqui Ahmad Khan",
+      email: "waquikhan313@gmail.com",
+      phone: "9923539374",
+      status: "verified",
+    },
+    chart: {
+      dataKey: [
+        { name: "visits", color: "#82ca9d" },
+        { name: "clicks", color: "#8884d8" },
+      ],
+      data: [
+        {
+          name: "Sun",
+          visits: 4000,
+          clicks: 2400,
+        },
+        {
+          name: "Mon",
+          visits: 3000,
+          clicks: 1398,
+        },
+        {
+          name: "Tue",
+          visits: 2000,
+          clicks: 3800,
+        },
+        {
+          name: "Wed",
+          visits: 2780,
+          clicks: 3908,
+        },
+        {
+          name: "Thu",
+          visits: 1890,
+          clicks: 4800,
+        },
+        {
+          name: "Fri",
+          visits: 2390,
+          clicks: 3800,
+        },
+        {
+          name: "Sat",
+          visits: 3490,
+          clicks: 4300,
+        },
+      ],
+    },
+    activities: [
+      {
+        text: "Waqui Khan purchased Playstation 5 Digital Edition",
+        time: "3 day ago",
+      },
+      {
+        text: "Waqui Khan added 3 items into their wishlist",
+        time: "1 week ago",
+      },
+      {
+        text: "Waqui Khan purchased Sony Bravia KD-32w800",
+        time: "2 weeks ago",
+      },
+      {
+        text: "Waqui Khan reviewed a product",
+        time: "1 month ago",
+      },
+      {
+        text: "Waqui Khan added 1 items into their wishlist",
+        time: "1 month ago",
+      },
+      {
+        text: "Waqui Khan reviewed a product",
+        time: "2 months ago",
+      },
+    ],
+  };
+
+  export const singleProduct = {
+    id: 1,
+    title: "Playstation 5 Digital Edition",
+    img: "https://store.sony.com.au/on/demandware.static/-/Sites-sony-master-catalog/default/dw1b537bbb/images/PLAYSTATION5W/PLAYSTATION5W.png",
+    info: {
+      productId: "Ps5SDF1156d",
+      color: "white",
+      price: "$250.99",
+      producer: "Sony",
+      export: "Japan",
+    },
+    chart: {
+      dataKey: [
+        { name: "visits", color: "#82ca9d" },
+        { name: "orders", color: "#8884d8" },
+      ],
+      data: [
+        {
+          name: "Sun",
+          visits: 4000,
+          orders: 2400,
+        },
+        {
+          name: "Mon",
+          visits: 3000,
+          orders: 1398,
+        },
+        {
+          name: "Tue",
+          visits: 2000,
+          orders: 3800,
+        },
+        {
+          name: "Wed",
+          visits: 2780,
+          orders: 3908,
+        },
+        {
+          name: "Thu",
+          visits: 1890,
+          orders: 4800,
+        },
+        {
+          name: "Fri",
+          visits: 2390,
+          orders: 3800,
+        },
+        {
+          name: "Sat",
+          visits: 3490,
+          orders: 4300,
+        },
+      ],
+    },
+    activities: [
+      {
+        text: "John Doe purchased Playstation 5 Digital Edition",
+        time: "3 day ago",
+      },
+      {
+        text: "Jane Doe added Playstation 5 Digital Edition into their wishlist",
+        time: "1 week ago",
+      },
+      {
+        text: "Mike Doe purchased Playstation 5 Digital Edition",
+        time: "2 weeks ago",
+      },
+      {
+        text: "Anna Doe reviewed the product",
+        time: "1 month ago",
+      },
+      {
+        text: "Michael Doe added Playstation 5 Digital Edition into their wishlist",
+        time: "1 month ago",
+      },
+      {
+        text: "Helen Doe reviewed the product",
+        time: "2 months ago",
+      },
+    ],
+  };

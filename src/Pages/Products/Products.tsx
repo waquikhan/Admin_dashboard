@@ -59,8 +59,8 @@ const Products = () => {
         <h1>Products</h1>
         <button onClick={()=>setOpne(true)}>Add New Products</button>
       </div>
-        <DataTable slug="product"  columns={columns} rows={product}  />
-        {open && <AddModalBox slug="product" columns={columns} setOpne={setOpne} />}
+        <DataTable slug="products"  columns={columns} rows={product}  />
+        {open && <AddModalBox slug="Product" columns={columns} setOpne={setOpne} />}
     </div>
   )
 }
