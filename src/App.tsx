@@ -12,6 +12,7 @@ import Orders from "./Components/Orders/Orders"
 import Posts from "./Components/Posts/Posts"
 import Settings from "./Components/Settings/Settings"
 import Home from "./Pages/Home/Home"
+import Login from "./Pages/Login/Login"
 import Product from "./Pages/Product/Product"
 import Products from "./Pages/Products/Products"
 import User from "./Pages/User/User"
@@ -103,6 +104,10 @@ function App() {
           path:"/logs",
           element:<Logs/>
         },
+        {
+          path:'/login',
+          element:<Login />
+        }
       ]
     }
   ]);
